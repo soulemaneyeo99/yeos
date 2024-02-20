@@ -1,0 +1,79 @@
+/* En-tête */
+header {
+  background-color: #383842;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Section de présentation */
+p {
+  padding: 20px;
+}
+
+/* Liens */
+nav {
+  font-size: 50px; /* Ajustez la taille selon vos préférences */
+  text-decoration: none; /* Enlève le soulignement des liens */
+  color: black; /* Couleur du texte des liens */
+  margin: 10px; /* Marge à gauche et à droite de 10 pixels pour espacer les liens */
+
+  text-align: center;
+}
+
+/* CSS pour le style des liens */
+
+/* Contenu du blog */
+.contenu {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Formulaire de présentation */
+.formulaire {
+  margin-top: 20px;
+}
+
+/* Pied de page */
+footer {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+
+/* Arrière-plan général */
+* {
+  background-color: #8884b4;
+  padding: 0%;
+  margin: 0%;
+}
+
+/* Titre principal */
+h1 {
+  color: black;
+}
+
+/* Animation pour les liens */
+@keyframes lien {
+  from {
+    color: black;
+  }
+  to {
+    color: red;
+  }
+}
+
+/* Liens */
+nav a {
+  text-decoration: none;
+  font-size: 30px; /* Ajustez la taille selon vos préférences */
+  color: black;
+  margin-right: 20px;
+  transition: color 0.3s; /* Ajoutez une transition de couleur */
+}
+
+/* Changement de couleur au survol */
+nav a:hover {
+  color: red;
+}
